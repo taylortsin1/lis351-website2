@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Gym Schedule</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+    <!-- ===== Header ===== -->
+    <header class="site-header">
+        <div class="container header-inner">
+            <a class="brand" href="#home">Gym Schedule<span class="dot">.</span></a>
+
+            <nav class="site-nav" aria-label="Main navigation">
+                <a href="#legs">Legs</a>
+                <a href="#back-bis">Back &amp; Biceps</a>
+                <a href="#pilates">Pilates</a>
+                <a href="#cardio">Cardio</a>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+
+        <!-- ===== Hero ===== -->
+        <section class="hero" id="home">
+            <div class="container hero-content">
+                <h1>My Gym Schedule</h1>
+                <p class="hero-subhead">A simple split to stay active, strong, and consistent.</p>
+                <p class="hero-text">
+                            Here is my simple workout schedule that helps me stay active, strong, and consistent. I know it can be hard to be healthy as a college student, this plan is designed to help me be constistent, despite how hectic my schedule can be.
+
+                </p>
+
+                <div class="hero-actions">
+                    <a class="btn btn-dark" href="#legs">View my workouts</a>
+                    <a class="btn btn-outline" href="#overview">How my week works</a>
+                </div>
+            </div>
+        </section>
+
+        <!-- ===== Overview (3 columns) ===== -->
+        <section class="features" id="overview">
+            <div class="container">
+                <h2 class="section-title">How my week is built</h2>
+
+                <div class="features-grid">
+                    <div class="feature">
+                        <div class="icon" aria-hidden="true">💪</div>
+                        <h3>Strength</h3>
+                        <p>Leg day and Back &amp; Biceps day are my main lifting sessions. They build muscle and
+                            keep me progressing.</p>
+                    </div>
+
+                    <div class="feature">
+                        <div class="icon" aria-hidden="true">🧘</div>
+                        <h3>Flexibility &amp; Balance</h3>
+                        <p>Pilates gives me a lower-impact day focused on core strength, mobility, and controlled
+                            movement.</p>
+                    </div>
+
+                    <div class="feature">
+                        <div class="icon" aria-hidden="true">🏃</div>
+                        <h3>Endurance</h3>
+                        <p>Cardio keeps my stamina up and keeps me moving on the days I'm not lifting.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- ===== Legs (featured) ===== -->
+        <section class="featured" id="legs">
+            <div class="container">
+                <h2 class="section-title">Legs</h2>
+                <p class="section-lede">
+                    My leg day focuses on building strength in my legs and improving lower-body fitness.
+                    I start with the heavier compound lifts, then finish with isolation work.
+                </p>
+
+                <!-- 
+                 SPOT 2: your leg day photo -->
+                <div class="media">
+                    <img src="images/legs.jpg" alt="Leg press machine at the gym">
+                </div>
+
+                <h3 class="list-title">Workout</h3>
+                <ul class="workout-list">
+                    <li>Hip Thrust</li>
+                    <li>Leg Press</li>
+                    <li>Romanian Deadlifts</li>
+                    <li>Leg Extensions</li>
+                    <li>Hamstring Curls</li>
+                </ul>
+            </div>
+        </section>
+
+        <!-- ===== Back & Biceps + Pilates (2 cards) ===== -->
+        <section class="secondary">
+            <div class="container">
+                <h2 class="section-title">Upper Body &amp; Core</h2>
+
+                <div class="secondary-grid">
+
+                    <article class="card" id="back-bis">
+                        <div class="card-text">
+                            <h3>Back &amp; Biceps</h3>
+                            <p>This workout focuses on strengthening my back and building my biceps. Pulling
+                                movements also help my posture after long hours of studying.</p>
+                            <ul class="workout-list">
+                                <li>Lat Pulldowns</li>
+                                <li>Seated Rows</li>
+                                <li>Pull-Ups</li>
+                                <li>Bicep Curls</li>
+                                <li>Hammer Curls</li>
+                            </ul>
+                        </div>
+                        <!-- IMAGE SPOT 3: set in styles.css (.img-a) -> images/back-biceps.jpg -->
+                        <div class="card-image img-a" role="img" aria-label="Lat pulldown machine"></div>
+                        <img src="https://www.google.com/url?sa=t&source=web&rct=j&url=https%3A%2F%2Fwww.womenshealthmag.com%2Ffitness%2Fa69428605%2Fguide-to-single-leg-exercises%2F&ved=0CBcQjRxqFwoTCPi3m_fJs5cDFQAAAAAdAAAAABA4&opi=89978449"
+                    </article>
+
+                    <article class="card" id="pilates">
+                        <div class="card-text">
+                            <h3>Pilates</h3>
+                            <p>Pilates helps me focus on core strength, flexibility, balance, and controlled
+                                movement. It's a good way to recover while still staying active.</p>
+                            <ul class="workout-list">
+                                <li>Core exercises</li>
+                                <li>Leg exercises</li>
+                                <li>Stretching</li>
+                                <li>Balance exercises</li>
+                            </ul>
+                        </div>
+                        <!-- IMAGE SPOT 4: set in styles.css (.img-b) -> images/pilates.jpg -->
+                        <div class="card-image img-b" role="img" aria-label="Pilates class"></div>
+                    </article>
+
+                </div>
+            </div>
+        </section>
+
+        <!-- ===== Cardio ===== -->
+        <section class="cardio" id="cardio">
+            <div class="container">
+                <h2 class="section-title">Cardio</h2>
+                <p class="section-lede">
+                    My cardio workouts help improve my endurance and keep me active throughout the week.
+                    I mix up the machines so it never gets boring.
+                </p>
+
+                <h3 class="list-title">Workout</h3>
+                <ul class="workout-list">
+                    <li>Treadmill</li>
+                    <li>StairMaster</li>
+                    <li>Incline Walking</li>
+                    <li>Running</li>
+                </ul>
+            </div>
+        </section>
+
+        <!-- ===== CTA ===== -->
+        <section class="cta">
+            <div class="container cta-inner">
+                <h2 class="section-title">Consistency beats perfection</h2>
+                <p class="section-lede">
+                    I don't need a perfect week. I just need to show up, follow the split, and keep going.
+                </p>
+                <a class="btn btn-dark" href="#home">Back to top</a>
+            </div>
+        </section>
+
+    </main>
+
+    <!-- ===== Footer ===== -->
+    <footer class="site-footer">
+        <div class="container footer-inner">
+            <div class="footer-left">
+                <p>&copy; 2026 My Gym Schedule. Created by [Your Name] for LIS 351.</p>
+            </div>
+
+            <div class="footer-cols">
+                <div class="footer-col">
+                    <h4>Workouts</h4>
+                    <a href="#legs">Legs</a>
+                    <a href="#back-bis">Back &amp; Biceps</a>
+                    <a href="#pilates">Pilates</a>
+                    <a href="#cardio">Cardio</a>
+                </div>
+
+                <div class="footer-col">
+                    <h4>Site</h4>
+                    <a href="#home">Home</a>
+                    <a href="#overview">Overview</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+</body>
+
+</html>
